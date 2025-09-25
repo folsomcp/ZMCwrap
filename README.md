@@ -31,3 +31,7 @@ The ZMCwrap package provide a few main functions.  These are used in the executa
 ## Adapting
 
 While ZMCwrap is designed to run with the Zeeman spectrum synthesis code, it can be modified to use other spectrum synthesis codes to generate model spectra.  Doing this requires replacing the current `runSpecSynth` function in the `zmcwrap/wrapper_zeeman.py` file.  This function needs to take lists of free parameters and free parameter IDs, and a dict of fixed parameters, and return lists with the wavelength and continuum normalized flux for the model spectrum (other functions will interpolate that onto the observed spectrum).  Other functions in that file can be used a an example of how to write input files used by the spectrum synthesis code.  
+
+## Acknowledgements
+
+This project was supported by funding from the European Union's Horizon Europe research and innovation programme under grant agreement No. 101079231 (EXOHOST), and from the United Kingdom Research and Innovation (UKRI) Horizon Europe Guarantee Scheme (grant number 10051045). 

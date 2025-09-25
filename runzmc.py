@@ -34,7 +34,7 @@ params =   {'Teff':9000.0, 'Vr':5.0, 'vsini':30.0, 'Vmic':2.0,
             'abun_24':-6.36,
             'abun_26':-4.50,
             'abun_28':-5.78,
-            'errF':0.0,
+            'errLogF':0.0,
             'contC_0':1.0, 'contC_1':0.0, 'contC_2':0.0, 'contC_3':0.0}
 epsilons = {'Teff':10., 'Vr':0.1, 'vsini':0.1, 'Vmic':0.1, 
             'abun_2': 0.01,
@@ -50,7 +50,7 @@ epsilons = {'Teff':10., 'Vr':0.1, 'vsini':0.1, 'Vmic':0.1,
             'abun_24':0.01,
             'abun_26':0.01,
             'abun_28':0.01,
-            'errF':0.01,
+            'errLogF':0.01,
             'contC_0':1e-4, 'contC_1':1e-4, 'contC_2':1e-4, 'contC_3':1e-4}
 fixedParams = {'logg':4.3, 'Vmac':0.0,
                'abun_56':-9.82,}
